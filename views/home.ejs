@@ -1,0 +1,29 @@
+
+<%- include("partials/header"); -%>
+ 
+
+  <section class="hero is-light my-1">
+        <%  Alldata.forEach(function(data){ %>
+            <div class="hero-body">      
+                 <div class="container">
+                  <a href="/posts/<%=data.title%>">
+                    <h4 class="title"><%=data.title%></h4>
+                </a> 
+                        <p class="subtitle is-small">
+                            <%=data.content.substring(0, 200) + " ..."%>
+                        </p>     
+                </div>    
+            </div> 
+        <% }) %>
+    </section>
+
+
+
+    </div>
+        
+    
+
+
+<%- include("partials/footer"); -%>
+
+
