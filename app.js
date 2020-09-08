@@ -4,7 +4,7 @@ const _ = require('lodash');
 const bodyParser = require("body-parser");
 const path = require("path");
 
-const aboutContent = "Hello, I am Rakesh, well i'm not a Developer also not a college Degree. But what i mostly like is creating new websites and writing blog post about education, tech, programming, hacking. Currently i m working for state Govt as a Clerk.and this website is also created by me . This Website is all about writing essays and letters for school and college level and also for competitive exams like ssc, ossc, bank , oas, IAS, etc.."
+const aboutContent = "Hello, I am Rakesh, well i'm not a Developer also not a college Degree. But what i mostly like is creating new websites and writing blog post about education, tech, programming, hacking..."
 
 const app = express()
 const sqlite3 = require('sqlite3').verbose();
